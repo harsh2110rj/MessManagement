@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MessManagement</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main">Mess Management</string>
+    <string name="instructions">Please click the add "(+)" button on top of the menu bar to add the items in record.\n\n Click on "Show Entries" button to see the details of bill of a particular day.\n\nThe admin of this app can use filters to query the entries for:\n(a) Particular Date. (b) Particular month.\n\nThe admin can delete any entry from the database if needed.\n\nFor any feedback, contact us by clicking on About us tab in the menu.\n\nEverytime a new entry is added and/or deleted, the app asks for a confirmation to recheck the details.\n\nHave fun!</string>
+    <string name="title_activity_bills_report">BillsReport</string>
+    <string name="yes">OK</string>
+    <string name="cancel">Cancel</string>
+</resources>
