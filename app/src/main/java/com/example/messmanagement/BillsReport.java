@@ -156,14 +156,7 @@ public class BillsReport extends AppCompatActivity implements LoaderManager.Load
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
         Log.d(TAG, "onCreate: starts");
         getSupportLoaderManager().initLoader(LOADER_ID, null, this);
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.items_list);
